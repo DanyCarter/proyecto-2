@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Conversor de Temperatura</title>
 </head>
 <body>
     <h1>Conversor de Temperatura</h1>
-    <p for="celsius">Ingresa la temperatura en grados celsius</p>
+    <p for="celsius">Ingresa la temperatura en grados Celsius</p>
     <input type="text" id="celsius">
     <button type="submit" onclick="convertirGrados()">Convertir Fahrenheit</button>
-    <p>La Temperatura en grados Fahrenheit es: <span id="fahrenheitResultado"></span></p>
-    <script src="/scripts.js"></script>
+    <div class="contenedor">
+        <span id="fahrenheitResultado">La Temperatura en grados Fahrenheit es: </span>
+    </div>
     <a href="/index.html">IR AL INICIO</a>
+    <script src="/scripts.js"></script>
+    <div class="contenedor">
+        <img class="imagen" style="margin-left: 50%;" src="assets/17deb0517c2136b00ea1e8a9dfd1d20e.jpg" alt="Pingüino" class="imagen-derecha">
+        </div>
 </body>
 </html>
